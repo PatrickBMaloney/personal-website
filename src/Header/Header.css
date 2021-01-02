@@ -1,0 +1,23 @@
+h1 {
+    padding: 30px 0;
+}
+
+.header-section {
+    background-color: #e7e7de;
+    height: 500px;
+    margin-top: 0px;
+    padding: 100px;
+    color: #00587a;
+}
+
+.name {
+    color: #008891;
+}
+
+.head-shot {
+    height: 350px;
+    border-radius: 100%;
+    margin: 0 auto 0 auto;
+    /* position: absolute; */
+    display: block;
+}
