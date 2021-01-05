@@ -1,0 +1,44 @@
+#projects {
+    text-align: center;
+    background-color: #00587a;
+    color:  #e7e7de;
+    padding: 10%;
+}
+
+h2 {
+    margin:  0 auto 60px;
+}
+
+#accordion1, #accordion2, #accordion3 {
+    background-color:  #008891;
+    color:  #e7e7de;
+}
+
+.accordian-details {
+    background-color: #e7e7de;
+    color: #0f3057;
+}
+
+.description-column {
+    width: 100%;
+}
+
+.project-title {
+    padding: 10% 2% 0;
+    color: #00587a;
+}
+
+.project-description {
+    padding: 5% 2%;
+}
+
+.media-column {
+    text-align: center;
+}
+
+.faceup-video {
+    width: 100%;
+    height: 300px;
+    margin: 0 auto;
+    display: inline-block;
+}

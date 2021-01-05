@@ -1,7 +1,6 @@
 import React from "react";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import image from "../images/head-shot.jpg"
 import classes from "./Header.css";
 
 const Header = () => {
@@ -15,7 +14,7 @@ const Header = () => {
                 <Col>
                     <img 
                         className="head-shot"
-                        src={image} 
+                        src="images/head-shot.jpg"
                         alt=" " />
                 </Col>
             </Row>
