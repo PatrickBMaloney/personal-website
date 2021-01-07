@@ -12,17 +12,26 @@ const Experience = () => {
             <Tab.Container id="left-tabs-example" defaultActiveKey="first">
                 <div className="experience-viewer">
                     <Row>
-                        <Col sm={3}>
+                        <Col sm={4}>
                             <div className="flex-container">
                                 <Nav className="flex-column nav-panel">
                                     <Nav.Item>
-                                    <Nav.Link eventKey="first">Tab 1</Nav.Link>
+                                        <Nav.Link eventKey="first">
+                                            <li className="nav-title">Software Developer</li>
+                                            <li>Ford Motor Co.</li>
+                                        </Nav.Link>
                                     </Nav.Item>
                                     <Nav.Item>
-                                    <Nav.Link eventKey="second">Tab 2</Nav.Link>
+                                        <Nav.Link eventKey="second">
+                                            <li className="nav-title">Software Developer</li>
+                                            <li>Ford Motor Co.</li>
+                                        </Nav.Link>
                                     </Nav.Item>
                                     <Nav.Item>
-                                    <Nav.Link eventKey="third">Tab 3</Nav.Link>
+                                        <Nav.Link eventKey="third">
+                                            <li className="nav-title">Software Developer</li>
+                                            <li>Big River Technologies Inc.</li>
+                                        </Nav.Link>
                                     </Nav.Item>
                                 </Nav>
                             </div>
@@ -32,10 +41,11 @@ const Experience = () => {
                         <Tab.Content className="content-container">
                             <Tab.Pane eventKey="first">
                                 <div>
-                                    <h4>Power Management Software Developer - Ford</h4>
+                                    <h4>Power Management Software Developer</h4>
                                     <hr/>
-                                    <p>Sept. 2020 - Dec. 2020</p>
-                                    <ul>
+                                    <p className="float-left"><a>Ford Motor Co.</a></p>
+                                    <p className="float-right">Sept. 2020 - Dec. 2020</p>
+                                    <ul className="experience-bullets">
                                         <li>the ejanf sja dja the a wehst.</li>
                                         <li>the ejanf sja dja the a wehst.</li>
                                         <li>the ejanf sja dja the a wehst.</li>

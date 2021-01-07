@@ -14,26 +14,57 @@ h2 {
     color:  #e7e7de;
 }
 
+.accordian-summary.Mui-expanded {
+    box-shadow: 0px 4px 3px -3px grey;
+}
+
 .accordian-details {
     background-color: #e7e7de;
     color: #0f3057;
 }
 
 .description-column {
+    position: relative;
     width: 100%;
+    height: 100%;
+    text-align: left;
+    padding-left: 2%;
+    padding-right: 2%;
+    /* border: 3px solid #73AD21; */
 }
 
 .project-title {
-    padding: 10% 2% 0;
+    padding-top: 10%;
     color: #00587a;
 }
 
 .project-description {
-    padding: 5% 2%;
+    padding-top: 3%;
+}
+
+.description-column .devpost {
+    color: #008891;
+    position: absolute;
+    bottom: 22px;
+    left: 55px;
+}
+
+.description-column .github {
+    color: #008891;
+    position: absolute;
+    bottom: 30px;
+}
+
+.description-column a:hover {
+    filter: grayscale(50%);
 }
 
 .media-column {
     text-align: center;
+}
+
+.media-column img{
+    height: 300px;
 }
 
 .faceup-video {
@@ -41,4 +72,5 @@ h2 {
     height: 300px;
     margin: 0 auto;
     display: inline-block;
+    border: none;
 }

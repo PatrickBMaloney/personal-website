@@ -3,7 +3,6 @@ import classes from "./AboutMe.css";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Carousel from 'react-bootstrap/Carousel';
-// import image from "images/shead-shot.jpg";
 
 const AboutMe = () => {
     return (

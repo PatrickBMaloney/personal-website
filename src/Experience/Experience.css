@@ -14,16 +14,8 @@ hr {
     border-radius: 20px;
     padding: 10px;
     margin: 50px auto 50px auto;
-    width: 60%;
+    width: 70%;
     text-align: left;
-}
-
-.content-container {
-    height: 350px;
-}
-
-.vl {
-    border-left: 1px solid #0f3057;
 }
 
 .flex-container {
@@ -39,6 +31,11 @@ hr {
 
 .nav-item {
     height: 33.3%;
+}
+
+.nav-title {
+    font-family: 'Open Sans:wght@600', sans-serif;
+    font-size: 1.1em;
 }
 
 .nav-link {
@@ -67,3 +64,24 @@ hr {
     border: #00587a solid 1px;
     color: #0f3057;
 } */
+
+.vl {
+    border-left: 1px solid #0f3057;
+}
+
+.content-container {
+    height: 350px;
+}
+
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
+.experience-bullets {
+    padding: 10%;
+}
+
