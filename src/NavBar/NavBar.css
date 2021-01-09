@@ -2,6 +2,10 @@
     background-color:#e7e7de;
 }
 
+.nav-bar .nav-link.active {
+    background-color:  #e7e7de;
+}
+
 @media (min-width: 990px) {
     .nav-links {
         position: absolute;

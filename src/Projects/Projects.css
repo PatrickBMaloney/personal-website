@@ -76,10 +76,6 @@
     border: none;
 }
 
-.nav-link.active {
-    background-color:  #e7e7de;
-}
-
 .grocery-img {
     margin-top: 9%;
 }
