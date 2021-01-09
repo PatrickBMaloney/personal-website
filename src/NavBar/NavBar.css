@@ -1,4 +1,14 @@
-nav {
+.nav-bar {
     background-color:#e7e7de;
-    padding: 0 10px;
+}
+
+@media (min-width: 990px) {
+    .nav-links {
+        position: absolute;
+        right: 10px;
+    }
+
+    .nav-link {
+        margin-left: 20px;
+    }
 }

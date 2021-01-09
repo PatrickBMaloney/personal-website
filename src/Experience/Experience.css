@@ -1,19 +1,24 @@
+.experience-section h2 {
+    text-align: left;
+    padding-left: 15%;
+    color: #00587a;
+    font-size: 2.5em;
+}
+
 hr {
     margin: 4px;
 }
 
 .experience-section {
     text-align: center;
-    padding: 70px 0 70px 0;
+    padding: 70px 0 40px 0;
     color: #00587a;
     background-color: #e7e7de;
 }
 
 .experience-viewer {
-    border: #0f3057 solid 2px;
     border-radius: 20px;
-    padding: 10px;
-    margin: 50px auto 50px auto;
+    margin: 20px auto 50px auto;
     width: 70%;
     text-align: left;
 }
@@ -25,12 +30,12 @@ hr {
 
 .nav-panel {
     margin: auto;
-    height: 60%;
+    height: 70%;
     width: 100%;
 }
 
 .nav-item {
-    height: 33.3%;
+    height: 25%;
 }
 
 .nav-title {
@@ -59,18 +64,16 @@ hr {
     color: #e7e7de;
 }
 
-/* .nav-link.active:hover {
-    background-color: white;
-    border: #00587a solid 1px;
-    color: #0f3057;
-} */
-
 .vl {
     border-left: 1px solid #0f3057;
 }
 
 .content-container {
     height: 350px;
+}
+
+.content-container a {
+    color: #00587a;
 }
 
 .float-left {
@@ -83,5 +86,9 @@ hr {
 
 .experience-bullets {
     padding: 10%;
+}
+
+.experience-bullets .bold {
+    font-weight: bold;
 }
 

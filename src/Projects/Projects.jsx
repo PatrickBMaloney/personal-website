@@ -68,8 +68,8 @@ return (
             <AccordionDetails className="accordian-details">
                 <Typography>
                 <Row>
-                    <Col>
-                        <div sm={6} className="description-column">
+                    <Col sm={6} >
+                        <div className="description-column">
                             <h3 className="project-title">MediBand</h3>
                             <h6><FontAwesomeIcon icon={faTrophy} color="#DAB900" /> BrickHack 2020 Chaos Engineering Award!</h6>
                             <p className="project-description">NFC patient bracelet and scanner system for first responders. Provides EMS with instant access to crucial patient information.</p>
@@ -88,10 +88,9 @@ return (
                         </div>
                     </Col>
                     <Col sm={6} className="media-column">
-                        <img src="images/mediband.png" alt="mediband" />
+                        <img src="images/mediband.png" alt="mediband" className="mediband-img"/>
                     </Col>
                 </Row>
-
                 </Typography>
             </AccordionDetails>
         </Accordion>
@@ -109,8 +108,13 @@ return (
                 <Row>
                     <Col>
                         <div sm={6} className="description-column">
-                            <h3 className="project-title">FaceUp</h3>
-                            <p className="project-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            <h3 className="project-title">EasyShopper</h3>
+                            <p className="project-description">
+                                EasyShoppr is a Pantry Management Tool to automate a user's shopping process. It suggests to the user different recipes,
+                                which they can add to their cart. The ingredients currently in a user's pantry are saved. As a result, when the user orders recipes,
+                                which is then broken down into individual ingredients using Wegman's APIs, only ingredients that the user does not have a sufficient 
+                                quantity of will be bought. This allows the user to save money and time when they reach the grocery store.
+                            </p>
                             <a href=" " className="github"><GitHubIcon fontSize="large"/></a>
                             <a href=" " className="devpost">
                                 <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="48" height="48" viewBox="0 0 226 226" styles={{fill: 'white'}}>
@@ -126,11 +130,9 @@ return (
                         </div>
                     </Col>
                     <Col sm={6} className="media-column">
-                        {/* <img src=" " alt=" " /> */}
-                        <iframe className="faceup-video" src="https://drive.google.com/file/d/1DucVWRb1USnDj5gSVCRFHzYgdu_SOtHE/preview" width="640" height="480"></iframe>
+                        <img src="images/grocery.png" alt="groceries" className="grocery-img"/>
                     </Col>
                 </Row>
-
                 </Typography>
             </AccordionDetails>
         </Accordion>

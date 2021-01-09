@@ -5,15 +5,9 @@
     /* height: 600px; */
 }
 
-/* .about-me-row {
-
-} */
-
-.carousel-component {
-    /* margin: auto;
-    position: absolute;
-    display: block; */
-    /* padding: 20%; */
+.about-me-section h2 {
+    margin-bottom: 30px;
+    font-size: 2.2em;
 }
 
 .carousel img {
@@ -23,5 +17,5 @@
 }
 
 .about-me-description {
-    padding: 100px 20px;
+    padding: 80px 20px;
 }
