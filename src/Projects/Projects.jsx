@@ -101,7 +101,7 @@ return (
                 aria-controls="panel1a-content"
                 id="panel1a-header"
             >
-                <Typography variant="h6">FaceUp</Typography>
+                <Typography variant="h6">EasyShopper</Typography>
             </AccordionSummary>
             <AccordionDetails className="accordian-details">
                 <Typography>
@@ -110,13 +110,13 @@ return (
                         <div sm={6} className="description-column">
                             <h3 className="project-title">EasyShopper</h3>
                             <p className="project-description">
-                                EasyShoppr is a Pantry Management Tool to automate a user's shopping process. It suggests to the user different recipes,
+                                EasyShopper is a Pantry Management Tool to automate a user's shopping process. It suggests to the user different recipes,
                                 which they can add to their cart. The ingredients currently in a user's pantry are saved. As a result, when the user orders recipes,
                                 which is then broken down into individual ingredients using Wegman's APIs, only ingredients that the user does not have a sufficient 
                                 quantity of will be bought. This allows the user to save money and time when they reach the grocery store.
                             </p>
-                            <a href=" " className="github"><GitHubIcon fontSize="large"/></a>
-                            <a href=" " className="devpost">
+                            <a href="https://github.com/PatrickBMaloney/EasyShoppr" className="github"><GitHubIcon fontSize="large"/></a>
+                            <a href="https://devpost.com/software/easyshoppr" className="devpost">
                                 <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="48" height="48" viewBox="0 0 226 226" styles={{fill: 'white'}}>
                                     <g fill="none" fillRule="nonzero" stroke="none" strokeWidth="1" strokeLinecap="butt" strokeLinejoin="miter" strokeMiterlimit="10" strokeDasharray="" strokeDashoffset="0" fontFamily="none" fontWeight="none" fontSize="none" textAnchor="none" styles={{mixBlendMode: "normal"}}>
                                         <path d="M0,226v-226h226v226z" fill="none"></path>
