@@ -74,7 +74,7 @@ const AboutMe = () => {
                         <p>I'm a third-year student at The University of Waterloo completing a BASc in Biomedical Engineering
                            with an option in Computing. Through my studies and co-op experience, I have developed a strong passion 
                            for software engineering, and I plan to make a career out of it. I am currently searching for a summer 
-                           2021 co-op position in full-stack software development.</p>
+                           2021 co-op position in software development.</p>
                         <p>Some of my interests include competing in hackathons, playing intramural sports, playing new board games
                            with friends, and participating in UWaterloo's engineering community through leadership roles.</p>
                     </div>

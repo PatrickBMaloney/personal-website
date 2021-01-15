@@ -76,6 +76,11 @@
     border: none;
 }
 
+.mediband-img{
+    height: 90%;
+    margin: 5% auto 5%;
+}
+
 .grocery-img {
     margin-top: 9%;
 }

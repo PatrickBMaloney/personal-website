@@ -72,7 +72,7 @@ return (
                         <div className="description-column">
                             <h3 className="project-title">MediBand</h3>
                             <h6><FontAwesomeIcon icon={faTrophy} color="#DAB900" /> BrickHack 2020 Chaos Engineering Award!</h6>
-                            <p className="project-description">NFC patient bracelet and scanner system for first responders. Provides EMS with instant access to crucial patient information.</p>
+                            <p className="project-description">NFC patient bracelet and scanner system for first responders. Provides EMS with instant access to crucial patient information. Built a web application for the MediBand bracelet using angular.js. Used an Arduino and an NFC/RFID breakout board to set up NFC card taps and  MongoDB Atlas database to store patient information.</p>
                             <a href="https://github.com/PatrickBMaloney/MediBand" className="github"><GitHubIcon fontSize="large"/></a>
                             <a href="https://devpost.com/software/mediband" className="devpost">
                                 <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="48" height="48" viewBox="0 0 226 226" styles={{fill: 'white'}}>
