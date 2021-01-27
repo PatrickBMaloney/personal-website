@@ -14,7 +14,7 @@ const NavBar = () => {
                     <Nav.Link className="nav-link" href="#experience">Experience</Nav.Link>
                     <Nav.Link className="nav-link" href="#projects">Projects</Nav.Link>
                     <Nav.Link className="nav-link" href="#contact-me">Contact Me</Nav.Link>
-                    <Nav.Link className="nav-link" href="Resume.pdf">Resume</Nav.Link>
+                    <Nav.Link className="nav-link" href="Resume_.pdf">Resume</Nav.Link>
                 </Nav>
             </Navbar.Collapse>
         </Navbar>
