@@ -11,5 +11,8 @@
 }
 
 .about-me-description {
-    padding: 80px 20px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 80px 30px 80px 20px;
 }

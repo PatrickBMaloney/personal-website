@@ -26,7 +26,7 @@ const ContactMe = () => {
                         </g>
                     </svg>
                 </a>
-                <a href="Resume.pdf"><DescriptionIcon className="icon" fontSize="large" /></a>
+                <a href="Resume_.pdf"><DescriptionIcon className="icon" fontSize="large" /></a>
             </div>
         </div>
     );

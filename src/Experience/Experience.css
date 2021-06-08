@@ -30,12 +30,12 @@ hr {
 
 .nav-panel {
     margin: auto;
-    height: 75%;
+    height: 80%;
     width: 100%;
 }
 
 .nav-item {
-    height: 25%;
+    height: 19.5%;
 }
 
 .nav-title {
@@ -46,22 +46,20 @@ hr {
 .nav-link {
     color:#0f3057;
     border:#e7e7de solid 1px;
-    border-radius: 3px;
+    border-radius: 5px;
     height: 100%;
-}
-
-.nav-link:hover {
-    background-color:#e7e7de;
-    border: #00587a solid 1px;
-    border-radius: 3px;
-    color: #0f3057;
 }
 
 /* Active tab */
 .nav-link.active {
     background-color: #00587a;
-    border-radius: 3px;
     color: #e7e7de;
+}
+
+.nav-link:hover {
+    background-color:#e7e7de;
+    border: #00587a solid 1px;
+    color: #0f3057;
 }
 
 .vl {
@@ -69,7 +67,7 @@ hr {
 }
 
 .content-container {
-    height: 350px;
+    height: 425px;
 }
 
 .content-container a {

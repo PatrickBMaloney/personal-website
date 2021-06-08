@@ -17,8 +17,8 @@ const Experience = () => {
                                 <Nav className="flex-column nav-panel">
                                     <Nav.Item>
                                         <Nav.Link eventKey="first">
-                                            <li className="nav-title">Software Developer</li>
-                                            <li>Ford Motor Co.</li>
+                                            <li className="nav-title">Full Stack Developer</li>
+                                            <li>IBM</li>
                                         </Nav.Link>
                                     </Nav.Item>
                                     <Nav.Item>
@@ -30,11 +30,17 @@ const Experience = () => {
                                     <Nav.Item>
                                         <Nav.Link eventKey="third">
                                             <li className="nav-title">Software Developer</li>
-                                            <li>Big River Technologies Inc.</li>
+                                            <li>Ford Motor Co.</li>
                                         </Nav.Link>
                                     </Nav.Item>
                                     <Nav.Item>
                                         <Nav.Link eventKey="forth">
+                                            <li className="nav-title">Software Developer</li>
+                                            <li>Big River Technologies Inc.</li>
+                                        </Nav.Link>
+                                    </Nav.Item>
+                                    <Nav.Item>
+                                        <Nav.Link eventKey="fifth">
                                             <li className="nav-title">Research Assistant</li>
                                             <li>Grand River Cancer Center</li>
                                         </Nav.Link>
@@ -47,6 +53,19 @@ const Experience = () => {
                         <Tab.Content className="content-container">
                             <Tab.Pane eventKey="first">
                                 <div>
+                                    <h4>Full Stack Developer</h4>
+                                    <hr/>
+                                    <p className="float-left"><a href="https://www.ibm.com/ca-en/products/qradar-siem">IBM</a></p>
+                                    <p className="float-right">May 2021 - Aug. 2021</p>
+                                    <ul className="experience-bullets">
+                                        <li>Developed a SIEM web app using a variety of technologies including <span className="bold">React.js</span>, <span className="bold">Sass</span>, <span className="bold">Node.js</span>, <span className="bold">Docker</span>, <span className="bold">SQLite</span>, and <span className="bold">NoSQL DBs</span></li>
+                                        <li>Wrote Restful APIs in <span className="bold">Node.js</span> for new and legacy web applications while applying web development engineering best practices</li>
+                                        <li>Designed and developed a data-heavy visualization report to allow clients to view exported SIEM rules offline using vanilla <span className="bold">HTML</span> and <span className="bold">CSS</span></li>
+                                    </ul>
+                                </div>
+                            </Tab.Pane>
+                            <Tab.Pane eventKey="second">
+                                <div>
                                     <h4>Power Management Software Developer</h4>
                                     <hr/>
                                     <p className="float-left"><a href="https://www.ford.ca/">Ford Motor Co.</a></p>
@@ -58,7 +77,7 @@ const Experience = () => {
                                     </ul>
                                 </div>
                             </Tab.Pane>
-                            <Tab.Pane eventKey="second">
+                            <Tab.Pane eventKey="third">
                                 <div>
                                     <h4>Power Management Software Developer</h4>
                                     <hr/>
@@ -71,7 +90,7 @@ const Experience = () => {
                                     </ul>
                                 </div>
                             </Tab.Pane>
-                            <Tab.Pane eventKey="third">
+                            <Tab.Pane eventKey="forth">
                                 <div>
                                     <h4>Software Developer</h4>
                                     <hr/>
@@ -84,7 +103,7 @@ const Experience = () => {
                                     </ul>
                                 </div>
                             </Tab.Pane>
-                            <Tab.Pane eventKey="forth">
+                            <Tab.Pane eventKey="fifth">
                                 <div>
                                     <h4>Cancer Radiotherapy Research Assistant</h4>
                                     <hr/>

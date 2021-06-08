@@ -10,6 +10,7 @@ import { green } from '@material-ui/core/colors';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faTrophy } from '@fortawesome/free-solid-svg-icons'
+import { faGooglePlay } from '@fortawesome/free-brands-svg-icons'
 import Carousel from 'react-bootstrap/Carousel';
 import classes from "./Projects.css";
 
@@ -19,6 +20,81 @@ return (
         <h2>My Projects</h2>
         <div>
             <Accordion id="accordion1">
+                <AccordionSummary
+                    className="accordian-summary"
+                    expandIcon={<ExpandMoreIcon styles={{ color: green[500] }}/>}
+                    aria-controls="panel1a-content"
+                    id="panel1a-header"
+                >
+                    <Typography variant="h6">Watopoly</Typography>
+                </AccordionSummary>
+                <AccordionDetails className="accordian-details">
+                    <Typography>
+                    <Row>
+                        <Col>
+                            <div sm={6} className="description-column">
+                                <h3 className="project-title">Watopoly</h3>
+                                <p className="project-description">
+                                Watopoly is a two to five multiplayer, pass-and-play, board game. Players take turns traveling around a 
+                                Waterloo campus-themed game board, attempting to buy, trade, and develop as many campus buildings as possible. 
+                                Money can be used to buy and develop properties and is obtained/lost through chance cards, tax squares, and rent. 
+                                The objective is to avoid forfeiting and to drive your opponents to bankruptcy using your properties. Check it out on the Google Play Store!
+                                </p>
+                                <a href="https://github.com/PatrickBMaloney/Watopoly" className="github"><GitHubIcon fontSize="large"/></a>
+                                <a href="https://play.google.com/store/apps/details?id=com.cathy.watopoly" className="play-store"><FontAwesomeIcon icon={faGooglePlay} color="#008891" size="2x"/></a>
+                            </div>
+                        </Col>
+                        <Col sm={6} className="media-column">
+                        <Carousel className="spotifind-carousel" controls={false} indicators={false} interval={3000}>
+                        <Carousel.Item>
+                            <img
+                                className="d-block w-100"
+                                src="images/watopoly/wat_image_1.webp"
+                                alt="First slide"
+                            />
+                        </Carousel.Item>
+                        <Carousel.Item>
+                            <img
+                                className="d-block w-100"
+                                src="images/watopoly/wat_image_2.webp"
+                                alt="Second slide"
+                            />
+                        </Carousel.Item>
+                        <Carousel.Item>
+                            <img
+                                className="d-block w-100"
+                                src="images/watopoly/wat_image_3.webp"
+                                alt="Third slide"
+                            />
+                        </Carousel.Item>
+                        <Carousel.Item>
+                            <img
+                                className="d-block w-100"
+                                src="images/watopoly/wat_image_5.webp"
+                                alt="Fourth slide"
+                            />
+                        </Carousel.Item>
+                        <Carousel.Item>
+                            <img
+                                className="d-block w-100"
+                                src="images/watopoly/wat_image_6.webp"
+                                alt="Fifth slide"
+                            />
+                        </Carousel.Item>
+                        <Carousel.Item>
+                            <img
+                                className="d-block w-100"
+                                src="images/watopoly/wat_image_7.webp"
+                                alt="Sixth slide"
+                            />
+                        </Carousel.Item>
+                    </Carousel>
+                        </Col>
+                    </Row>
+                    </Typography>
+                </AccordionDetails>
+            </Accordion>
+            <Accordion id="accordion2">
                 <AccordionSummary
                     className="accordian-summary"
                     expandIcon={<ExpandMoreIcon styles={{ color: green[500] }}/>}
@@ -90,7 +166,7 @@ return (
                     </Typography>
                 </AccordionDetails>
             </Accordion>
-            <Accordion id="accordion2">
+            <Accordion id="accordion3">
                 <AccordionSummary
                     className="accordian-summary"
                     expandIcon={<ExpandMoreIcon styles={{ color: green[500] }}/>}
@@ -129,7 +205,7 @@ return (
                     </Typography>
                 </AccordionDetails>
             </Accordion>
-            <Accordion id="accordion3">
+            <Accordion id="accordion4">
                 <AccordionSummary
                     className="accordian-summary"
                     expandIcon={<ExpandMoreIcon styles={{ color: green[500] }}/>}
@@ -167,7 +243,7 @@ return (
                     </Typography>
                 </AccordionDetails>
             </Accordion>
-            <Accordion id="accordion4">
+            <Accordion id="accordion5">
                 <AccordionSummary
                     className="accordian-summary"
                     expandIcon={<ExpandMoreIcon styles={{ color: green[500] }}/>}

@@ -13,7 +13,7 @@ const Header = () => {
             <Row>
                 <Col className="header-col" sm={6}>
                     <h1>Hi, I'm <span className="name">Patrick Maloney</span></h1>
-                    <p>I am an engineering student at The University of Waterloo, pursuing a career in software engineering. I'm currently searching for a summer 2021 coop position!</p>
+                    <p>I am an engineering student at The University of Waterloo, pursuing a career in software engineering. I'm currently searching for a winter 2022 co-op position!</p>
                     <div className="header-links">
                     <Row>
                         <Col lg={6}>
@@ -32,7 +32,7 @@ const Header = () => {
                             <a href="https://www.linkedin.com/in/patrickbmaloney/" ><LinkedInIcon className="icon" fontSize="large" /></a>
                         </Col>
                         <Col>
-                            <a href="Resume.pdf"><DescriptionIcon className="icon last-icon" fontSize="large" /></a>
+                            <a href="Resume_.pdf"><DescriptionIcon className="icon last-icon" fontSize="large" /></a>
                         </Col>
                         </Row>
                         </Col>
