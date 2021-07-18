@@ -1,0 +1,68 @@
+.header-section {
+  background-color: #e7e7de;
+  margin-top: 0px;
+  padding: 0px 15%;
+  color: #00587a;
+
+  h1 {
+    margin-top: 20vh;
+    padding: 0 0 30px;
+  }
+}
+
+.header-col {
+  height: 97vh;
+}
+
+.header-links {
+  text-align: center;
+  margin-top: 17vh;
+  .MuiSvgIcon-fontSizeLarge {
+    font-size: 3.5rem;
+  }
+}
+
+.icon {
+  margin: 0 21% 0 0;
+  color: #00587a;
+}
+
+.icon:hover {
+  filter: grayscale(60%);
+}
+
+.name {
+  color: #008891;
+}
+
+.head-shot {
+  height: 50%;
+  border-radius: 100%;
+  margin: 17vh auto;
+  display: block;
+}
+
+@media (max-width: 1028px) {
+  .header-section {
+    height: auto;
+    .header-col {
+      height: auto;
+    }
+
+    .head-shot {
+      height: 250px;
+      border-radius: 100%;
+      margin: 25% auto 10%;
+      display: block;
+    }
+
+    .header-links {
+      text-align: center;
+      margin-top: 10vh;
+    }
+
+    .icon {
+      margin: 0 17% 17% 0;
+    }
+  }
+}

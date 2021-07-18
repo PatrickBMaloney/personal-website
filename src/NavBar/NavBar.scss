@@ -1,0 +1,27 @@
+.nav-bar {
+  background-color: #e7e7de;
+  .navbar {
+    padding: 0.8rem 1.6rem;
+    .nav-link {
+      padding: 0.8rem;
+      &.active {
+        background-color: #e7e7de;
+      }
+    }
+    .navbar-brand {
+      font-size: 2rem;
+      padding: 0.5rem 0;
+    }
+
+    @media (min-width: 990px) {
+      .nav-links {
+        position: absolute;
+        right: 10px;
+      }
+
+      .nav-link {
+        margin-left: 20px;
+      }
+    }
+  }
+}

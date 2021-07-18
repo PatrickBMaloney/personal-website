@@ -1,99 +1,110 @@
 #projects {
-    text-align: center;
-    background-color: #00587a;
-    color:  #e7e7de;
-    padding: 0 10% 10%;
-}
+  text-align: center;
+  background-color: #00587a;
+  color: #e7e7de;
+  padding: 0 10% 10%;
 
-#projects h2 {
-    margin:  0 auto 60px;
+  * {
+    backface-visibility: hidden;
+  }
+
+  h2 {
+    margin: 0 auto 60px;
     padding-top: 7%;
-    font-size: 2.5em;
-}
+  }
 
-#accordion1, #accordion2, #accordion3, #accordion4, #accordion5 {
-    background-color:  #008891;
-    color:  #e7e7de;
-}
+  #accordion1,
+  #accordion2,
+  #accordion3,
+  #accordion4,
+  #accordion5 {
+    background-color: #008891;
+    color: #e7e7de;
+  }
 
-.accordian-summary.Mui-expanded {
+  .accordian-summary.Mui-expanded {
     box-shadow: 0px 4px 3px -3px grey;
-}
+  }
 
-.accordian-details {
+  .accordian-details {
     background-color: #e7e7de;
     color: #0f3057;
-}
+  }
 
-.description-column {
+  .description-column {
     position: relative;
     width: 100%;
     height: 100%;
     text-align: left;
     padding-left: 2%;
     padding-right: 2%;
-}
+  }
 
-.project-title {
+  .project-title {
     padding-top: 10%;
     color: #00587a;
-}
+  }
 
-.project-description {
+  .project-description {
     padding: 3% 0 15%;
-}
+  }
 
-.description-column .devpost {
+  .description-column .devpost {
     color: #008891;
     position: absolute;
     bottom: 22px;
     left: 55px;
-}
+  }
 
-.description-column .github {
+  .description-column .github {
     color: #008891;
     position: absolute;
     bottom: 30px;
-}
+  }
 
-.description-column .play-store {
+  .description-column .play-store {
     color: #008891;
     position: absolute;
     bottom: 27px;
     left: 60px;
-}
+  }
 
-.description-column a:hover {
+  .description-column a:hover {
     filter: grayscale(50%);
-}
+  }
 
-.media-column {
+  .media-column {
     text-align: center;
-}
+  }
 
-.media-column img{
+  .media-column img {
     height: 300px;
-}
+  }
 
-.spotifind-carousel {
+  .spotifind-carousel {
     padding-top: 5%;
     max-width: 500px;
     margin: auto;
-}
+  }
 
-.faceup-video {
+  .faceup-video {
     width: 100%;
     height: 300px;
     margin: 0 auto;
     display: inline-block;
     border: none;
-}
+  }
 
-.mediband-img{
+  .mediband-img {
     height: 90%;
     margin: 5% auto 5%;
-}
+  }
 
-.grocery-img {
+  .grocery-img {
     margin-top: 9%;
+  }
+
+  .MuiTypography-h6 {
+    font-size: 2rem;
+  }
 }

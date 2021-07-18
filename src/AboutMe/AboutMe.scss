@@ -1,0 +1,12 @@
+@import "../sass/variables";
+
+.about-me-section {
+  background-color: $color-primary;
+  color: $color-white;
+  .about-me-description {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 80px 30px 80px 20px;
+  }
+}

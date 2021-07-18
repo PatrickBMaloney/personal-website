@@ -1,0 +1,23 @@
+@import "./variables";
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: $default-font-size;
+  //   color: $default-font-size;
+  background-color: red;
+}
+
+h1 {
+  font-size: 4rem;
+  font-family: "Open Sans:wght@600", sans-serif;
+  margin-bottom: 0.8rem;
+}
+
+h2 {
+  font-size: 3.52rem;
+  margin-bottom: 3rem;
+}
+
+p {
+  margin-bottom: 1.6rem;
+}

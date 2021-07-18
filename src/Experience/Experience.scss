@@ -1,0 +1,88 @@
+.experience-section {
+  text-align: center;
+  padding: 70px 0 40px 0;
+  color: #00587a;
+  background-color: #e7e7de;
+  h2 {
+    text-align: left;
+    padding-left: 15%;
+    color: #00587a;
+  }
+
+  hr {
+    margin: 4px;
+  }
+  .experience-viewer {
+    border-radius: 20px;
+    margin: 20px auto 50px auto;
+    width: 70%;
+    text-align: left;
+  }
+
+  .flex-container {
+    display: flex;
+    height: 100%;
+  }
+
+  .nav-panel {
+    margin: auto;
+    height: 80%;
+    width: 100%;
+  }
+
+  .nav-item {
+    height: 19.5%;
+  }
+
+  .nav-title {
+    font-family: "Open Sans:wght@600", sans-serif;
+    font-size: 1.76rem;
+  }
+
+  .nav-link {
+    color: #0f3057;
+    border: #e7e7de solid 1px;
+    border-radius: 5px;
+    height: 100%;
+  }
+
+  /* Active tab */
+  .nav-link.active {
+    background-color: #00587a;
+    color: #e7e7de;
+  }
+
+  .nav-link:hover {
+    background-color: #e7e7de;
+    border: #00587a solid 1px;
+    color: #0f3057;
+  }
+
+  .vl {
+    border-left: 1px solid #0f3057;
+  }
+
+  .content-container {
+    height: 425px;
+  }
+
+  .content-container a {
+    color: #00587a;
+  }
+
+  .float-left {
+    float: left;
+  }
+
+  .float-right {
+    float: right;
+  }
+
+  .experience-bullets {
+    padding: 10%;
+  }
+
+  .experience-bullets .bold {
+    font-weight: bold;
+  }
+}
