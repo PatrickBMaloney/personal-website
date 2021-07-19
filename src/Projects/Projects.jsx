@@ -33,7 +33,7 @@ export default function Projects() {
               <Row>
                 <Col>
                   <div sm={6} className="description-column">
-                    <h3 className="project-title">Watopoly</h3>
+                    <h4 className="project-title">Watopoly</h4>
                     <p className="project-description">
                       Watopoly is a two to five multiplayer, pass-and-play,
                       board game. Players take turns traveling around a Waterloo
@@ -45,22 +45,24 @@ export default function Projects() {
                       bankruptcy using your properties. Check it out on the
                       Google Play Store!
                     </p>
-                    <a
-                      href="https://github.com/PatrickBMaloney/Watopoly"
-                      className="github"
-                    >
-                      <GitHubIcon fontSize="large" />
-                    </a>
-                    <a
-                      href="https://play.google.com/store/apps/details?id=com.cathy.watopoly"
-                      className="play-store"
-                    >
-                      <FontAwesomeIcon
-                        icon={faGooglePlay}
-                        color="#008891"
-                        size="2x"
-                      />
-                    </a>
+                    <div className="project__links">
+                      <a
+                        href="https://github.com/PatrickBMaloney/Watopoly"
+                        className="github"
+                      >
+                        <GitHubIcon fontSize="large" />
+                      </a>
+                      <a
+                        href="https://play.google.com/store/apps/details?id=com.cathy.watopoly"
+                        className="play-store"
+                      >
+                        <FontAwesomeIcon
+                          icon={faGooglePlay}
+                          color="#008891"
+                          size="2x"
+                        />
+                      </a>
+                    </div>
                   </div>
                 </Col>
                 <Col sm={6} className="media-column">
@@ -132,7 +134,7 @@ export default function Projects() {
               <Row>
                 <Col>
                   <div sm={6} className="description-column">
-                    <h3 className="project-title">SpotiFind</h3>
+                    <h4 className="project-title">SpotiFind</h4>
                     <p className="project-description">
                       SpotiFind is a web app that takes in your Spotify
                       analytics and your mood/occassion to make you a custom
@@ -144,55 +146,57 @@ export default function Projects() {
                       popularity. It returns a playlist made up of songs from
                       the user's library as well as other similar songs.
                     </p>
-                    <a
-                      href="https://github.com/PatrickBMaloney/Spotifind"
-                      className="github"
-                    >
-                      <GitHubIcon fontSize="large" />
-                    </a>
-                    <a
-                      href="https://devpost.com/software/spotifind-q3oytk"
-                      className="devpost"
-                    >
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        x="0px"
-                        y="0px"
-                        width="48"
-                        height="48"
-                        viewBox="0 0 226 226"
-                        styles={{ fill: "white" }}
+                    <div className="project__links">
+                      <a
+                        href="https://github.com/PatrickBMaloney/Spotifind"
+                        className="github"
                       >
-                        <g
-                          fill="none"
-                          fillRule="nonzero"
-                          stroke="none"
-                          strokeWidth="1"
-                          strokeLinecap="butt"
-                          strokeLinejoin="miter"
-                          strokeMiterlimit="10"
-                          strokeDasharray=""
-                          strokeDashoffset="0"
-                          fontFamily="none"
-                          fontWeight="none"
-                          fontSize="none"
-                          textAnchor="none"
-                          styles={{ mixBlendMode: "normal" }}
+                        <GitHubIcon fontSize="large" />
+                      </a>
+                      <a
+                        href="https://devpost.com/software/spotifind-q3oytk"
+                        className="devpost"
+                      >
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          x="0px"
+                          y="0px"
+                          width="48"
+                          height="48"
+                          viewBox="0 0 226 226"
+                          styles={{ fill: "white" }}
                         >
-                          <path d="M0,226v-226h226v226z" fill="none"></path>
-                          <g>
-                            <path
-                              d="M165.08829,28.25h-104.17187l-47.49767,84.77825l48.71713,84.72175h102.94771l47.47883,-84.75z"
-                              fill="#008891"
-                            ></path>
-                            <path
-                              d="M113.74392,65.91667h-33.70225v94.16667h33.70225c25.61333,0 46.33942,-21.06037 46.33942,-47.08333c0,-26.02296 -20.72608,-47.08333 -46.33942,-47.08333zM113,141.25h-14.125v-56.5h14.125c15.58458,0 28.25,12.66542 28.25,28.25c0,15.58458 -12.66542,28.25 -28.25,28.25z"
-                              fill="#ffffff"
-                            ></path>
+                          <g
+                            fill="none"
+                            fillRule="nonzero"
+                            stroke="none"
+                            strokeWidth="1"
+                            strokeLinecap="butt"
+                            strokeLinejoin="miter"
+                            strokeMiterlimit="10"
+                            strokeDasharray=""
+                            strokeDashoffset="0"
+                            fontFamily="none"
+                            fontWeight="none"
+                            fontSize="none"
+                            textAnchor="none"
+                            styles={{ mixBlendMode: "normal" }}
+                          >
+                            <path d="M0,226v-226h226v226z" fill="none"></path>
+                            <g>
+                              <path
+                                d="M165.08829,28.25h-104.17187l-47.49767,84.77825l48.71713,84.72175h102.94771l47.47883,-84.75z"
+                                fill="#008891"
+                              ></path>
+                              <path
+                                d="M113.74392,65.91667h-33.70225v94.16667h43.70225c25.61333,0 46.33942,-21.06037 46.33942,-47.08333c0,-26.02296 -20.72608,-47.08333 -46.33942,-47.08333zM113,141.25h-14.125v-56.5h14.125c15.58458,0 28.25,12.66542 28.25,28.25c0,15.58458 -12.66542,28.25 -28.25,28.25z"
+                                fill="#ffffff"
+                              ></path>
+                            </g>
                           </g>
-                        </g>
-                      </svg>
-                    </a>
+                        </svg>
+                      </a>
+                    </div>
                   </div>
                 </Col>
                 <Col sm={6} className="media-column">
@@ -250,7 +254,7 @@ export default function Projects() {
               <Row>
                 <Col>
                   <div sm={6} className="description-column">
-                    <h3 className="project-title">FaceUp</h3>
+                    <h4 className="project-title">FaceUp</h4>
                     <h6>
                       <FontAwesomeIcon icon={faTrophy} color="#DAB900" />{" "}
                       BrickHack 2019 Best AR/VR Hack!
@@ -260,55 +264,57 @@ export default function Projects() {
                       for the Vuzix Blade smart glasses in under 24 hours with
                       the use of Unity, Vysor, and Vuforia.
                     </p>
-                    <a
-                      href="https://github.com/PatrickBMaloney/FACEUP"
-                      className="github"
-                    >
-                      <GitHubIcon fontSize="large" />
-                    </a>
-                    <a
-                      href="https://devpost.com/software/whoisthis"
-                      className="devpost"
-                    >
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        x="0px"
-                        y="0px"
-                        width="48"
-                        height="48"
-                        viewBox="0 0 226 226"
-                        styles={{ fill: "white" }}
+                    <div className="project__links">
+                      <a
+                        href="https://github.com/PatrickBMaloney/FACEUP"
+                        className="github"
                       >
-                        <g
-                          fill="none"
-                          fillRule="nonzero"
-                          stroke="none"
-                          strokeWidth="1"
-                          strokeLinecap="butt"
-                          strokeLinejoin="miter"
-                          strokeMiterlimit="10"
-                          strokeDasharray=""
-                          strokeDashoffset="0"
-                          fontFamily="none"
-                          fontWeight="none"
-                          fontSize="none"
-                          textAnchor="none"
-                          styles={{ mixBlendMode: "normal" }}
+                        <GitHubIcon fontSize="large" />
+                      </a>
+                      <a
+                        href="https://devpost.com/software/whoisthis"
+                        className="devpost"
+                      >
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          x="0px"
+                          y="0px"
+                          width="48"
+                          height="48"
+                          viewBox="0 0 226 226"
+                          styles={{ fill: "white" }}
                         >
-                          <path d="M0,226v-226h226v226z" fill="none"></path>
-                          <g>
-                            <path
-                              d="M165.08829,28.25h-104.17187l-47.49767,84.77825l48.71713,84.72175h102.94771l47.47883,-84.75z"
-                              fill="#008891"
-                            ></path>
-                            <path
-                              d="M113.74392,65.91667h-33.70225v94.16667h33.70225c25.61333,0 46.33942,-21.06037 46.33942,-47.08333c0,-26.02296 -20.72608,-47.08333 -46.33942,-47.08333zM113,141.25h-14.125v-56.5h14.125c15.58458,0 28.25,12.66542 28.25,28.25c0,15.58458 -12.66542,28.25 -28.25,28.25z"
-                              fill="#ffffff"
-                            ></path>
+                          <g
+                            fill="none"
+                            fillRule="nonzero"
+                            stroke="none"
+                            strokeWidth="1"
+                            strokeLinecap="butt"
+                            strokeLinejoin="miter"
+                            strokeMiterlimit="10"
+                            strokeDasharray=""
+                            strokeDashoffset="0"
+                            fontFamily="none"
+                            fontWeight="none"
+                            fontSize="none"
+                            textAnchor="none"
+                            styles={{ mixBlendMode: "normal" }}
+                          >
+                            <path d="M0,226v-226h226v226z" fill="none"></path>
+                            <g>
+                              <path
+                                d="M165.08829,28.25h-104.17187l-47.49767,84.77825l48.71713,84.72175h102.94771l47.47883,-84.75z"
+                                fill="#008891"
+                              ></path>
+                              <path
+                                d="M113.74392,65.91667h-33.70225v94.16667h43.70225c25.61333,0 46.33942,-21.06037 46.33942,-47.08333c0,-26.02296 -20.72608,-47.08333 -46.33942,-47.08333zM113,141.25h-14.125v-56.5h14.125c15.58458,0 28.25,12.66542 28.25,28.25c0,15.58458 -12.66542,28.25 -28.25,28.25z"
+                                fill="#ffffff"
+                              ></path>
+                            </g>
                           </g>
-                        </g>
-                      </svg>
-                    </a>
+                        </svg>
+                      </a>
+                    </div>
                   </div>
                 </Col>
                 <Col sm={6} className="media-column">
@@ -337,7 +343,7 @@ export default function Projects() {
               <Row>
                 <Col sm={6}>
                   <div className="description-column">
-                    <h3 className="project-title">MediBand</h3>
+                    <h4 className="project-title">MediBand</h4>
                     <h6>
                       <FontAwesomeIcon icon={faTrophy} color="#DAB900" />{" "}
                       BrickHack 2020 Chaos Engineering Award!
@@ -350,55 +356,57 @@ export default function Projects() {
                       NFC/RFID breakout board to set up NFC card taps and
                       MongoDB Atlas database to store patient information.
                     </p>
-                    <a
-                      href="https://github.com/PatrickBMaloney/MediBand"
-                      className="github"
-                    >
-                      <GitHubIcon fontSize="large" />
-                    </a>
-                    <a
-                      href="https://devpost.com/software/mediband"
-                      className="devpost"
-                    >
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        x="0px"
-                        y="0px"
-                        width="48"
-                        height="48"
-                        viewBox="0 0 226 226"
-                        styles={{ fill: "white" }}
+                    <div className="project__links">
+                      <a
+                        href="https://github.com/PatrickBMaloney/MediBand"
+                        className="github"
                       >
-                        <g
-                          fill="none"
-                          fillRule="nonzero"
-                          stroke="none"
-                          strokeWidth="1"
-                          strokeLinecap="butt"
-                          strokeLinejoin="miter"
-                          strokeMiterlimit="10"
-                          strokeDasharray=""
-                          strokeDashoffset="0"
-                          fontFamily="none"
-                          fontWeight="none"
-                          fontSize="none"
-                          textAnchor="none"
-                          styles={{ mixBlendMode: "normal" }}
+                        <GitHubIcon fontSize="large" />
+                      </a>
+                      <a
+                        href="https://devpost.com/software/mediband"
+                        className="devpost"
+                      >
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          x="0px"
+                          y="0px"
+                          width="48"
+                          height="48"
+                          viewBox="0 0 226 226"
+                          styles={{ fill: "white" }}
                         >
-                          <path d="M0,226v-226h226v226z" fill="none"></path>
-                          <g>
-                            <path
-                              d="M165.08829,28.25h-104.17187l-47.49767,84.77825l48.71713,84.72175h102.94771l47.47883,-84.75z"
-                              fill="#008891"
-                            ></path>
-                            <path
-                              d="M113.74392,65.91667h-33.70225v94.16667h33.70225c25.61333,0 46.33942,-21.06037 46.33942,-47.08333c0,-26.02296 -20.72608,-47.08333 -46.33942,-47.08333zM113,141.25h-14.125v-56.5h14.125c15.58458,0 28.25,12.66542 28.25,28.25c0,15.58458 -12.66542,28.25 -28.25,28.25z"
-                              fill="#ffffff"
-                            ></path>
+                          <g
+                            fill="none"
+                            fillRule="nonzero"
+                            stroke="none"
+                            strokeWidth="1"
+                            strokeLinecap="butt"
+                            strokeLinejoin="miter"
+                            strokeMiterlimit="10"
+                            strokeDasharray=""
+                            strokeDashoffset="0"
+                            fontFamily="none"
+                            fontWeight="none"
+                            fontSize="none"
+                            textAnchor="none"
+                            styles={{ mixBlendMode: "normal" }}
+                          >
+                            <path d="M0,226v-226h226v226z" fill="none"></path>
+                            <g>
+                              <path
+                                d="M165.08829,28.25h-104.17187l-47.49767,84.77825l48.71713,84.72175h102.94771l47.47883,-84.75z"
+                                fill="#008891"
+                              ></path>
+                              <path
+                                d="M113.74392,65.91667h-33.70225v94.16667h43.70225c25.61333,0 46.33942,-21.06037 46.33942,-47.08333c0,-26.02296 -20.72608,-47.08333 -46.33942,-47.08333zM113,141.25h-14.125v-56.5h14.125c15.58458,0 28.25,12.66542 28.25,28.25c0,15.58458 -12.66542,28.25 -28.25,28.25z"
+                                fill="#ffffff"
+                              ></path>
+                            </g>
                           </g>
-                        </g>
-                      </svg>
-                    </a>
+                        </svg>
+                      </a>
+                    </div>
                   </div>
                 </Col>
                 <Col sm={6} className="media-column">
@@ -426,7 +434,7 @@ export default function Projects() {
               <Row>
                 <Col>
                   <div sm={6} className="description-column">
-                    <h3 className="project-title">EasyShopper</h3>
+                    <h4 className="project-title">EasyShopper</h4>
                     <p className="project-description">
                       EasyShopper is a Pantry Management Tool to automate a
                       user's shopping process. It suggests to the user different
@@ -438,55 +446,57 @@ export default function Projects() {
                       quantity of will be bought. This allows the user to save
                       money and time when they reach the grocery store.
                     </p>
-                    <a
-                      href="https://github.com/PatrickBMaloney/EasyShoppr"
-                      className="github"
-                    >
-                      <GitHubIcon fontSize="large" />
-                    </a>
-                    <a
-                      href="https://devpost.com/software/easyshoppr"
-                      className="devpost"
-                    >
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        x="0px"
-                        y="0px"
-                        width="48"
-                        height="48"
-                        viewBox="0 0 226 226"
-                        styles={{ fill: "white" }}
+                    <div className="project__links">
+                      <a
+                        href="https://github.com/PatrickBMaloney/EasyShoppr"
+                        className="github"
                       >
-                        <g
-                          fill="none"
-                          fillRule="nonzero"
-                          stroke="none"
-                          strokeWidth="1"
-                          strokeLinecap="butt"
-                          strokeLinejoin="miter"
-                          strokeMiterlimit="10"
-                          strokeDasharray=""
-                          strokeDashoffset="0"
-                          fontFamily="none"
-                          fontWeight="none"
-                          fontSize="none"
-                          textAnchor="none"
-                          styles={{ mixBlendMode: "normal" }}
+                        <GitHubIcon fontSize="large" />
+                      </a>
+                      <a
+                        href="https://devpost.com/software/easyshoppr"
+                        className="devpost"
+                      >
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          x="0px"
+                          y="0px"
+                          width="48"
+                          height="48"
+                          viewBox="0 0 226 226"
+                          styles={{ fill: "white" }}
                         >
-                          <path d="M0,226v-226h226v226z" fill="none"></path>
-                          <g>
-                            <path
-                              d="M165.08829,28.25h-104.17187l-47.49767,84.77825l48.71713,84.72175h102.94771l47.47883,-84.75z"
-                              fill="#008891"
-                            ></path>
-                            <path
-                              d="M113.74392,65.91667h-33.70225v94.16667h33.70225c25.61333,0 46.33942,-21.06037 46.33942,-47.08333c0,-26.02296 -20.72608,-47.08333 -46.33942,-47.08333zM113,141.25h-14.125v-56.5h14.125c15.58458,0 28.25,12.66542 28.25,28.25c0,15.58458 -12.66542,28.25 -28.25,28.25z"
-                              fill="#ffffff"
-                            ></path>
+                          <g
+                            fill="none"
+                            fillRule="nonzero"
+                            stroke="none"
+                            strokeWidth="1"
+                            strokeLinecap="butt"
+                            strokeLinejoin="miter"
+                            strokeMiterlimit="10"
+                            strokeDasharray=""
+                            strokeDashoffset="0"
+                            fontFamily="none"
+                            fontWeight="none"
+                            fontSize="none"
+                            textAnchor="none"
+                            styles={{ mixBlendMode: "normal" }}
+                          >
+                            <path d="M0,226v-226h226v226z" fill="none"></path>
+                            <g>
+                              <path
+                                d="M165.08829,28.25h-104.17187l-47.49767,84.77825l48.71713,84.72175h102.94771l47.47883,-84.75z"
+                                fill="#008891"
+                              ></path>
+                              <path
+                                d="M113.74392,65.91667h-33.70225v94.16667h43.70225c25.61333,0 46.33942,-21.06037 46.33942,-47.08333c0,-26.02296 -20.72608,-47.08333 -46.33942,-47.08333zM113,141.25h-14.125v-56.5h14.125c15.58458,0 28.25,12.66542 28.25,28.25c0,15.58458 -12.66542,28.25 -28.25,28.25z"
+                                fill="#ffffff"
+                              ></path>
+                            </g>
                           </g>
-                        </g>
-                      </svg>
-                    </a>
+                        </svg>
+                      </a>
+                    </div>
                   </div>
                 </Col>
                 <Col sm={6} className="media-column">
@@ -504,5 +514,3 @@ export default function Projects() {
     </div>
   );
 }
-
-// export default Projects;

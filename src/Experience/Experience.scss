@@ -1,19 +1,20 @@
+@import "../sass/variables";
+
 .experience-section {
   text-align: center;
   padding: 70px 0 40px 0;
-  color: #00587a;
-  background-color: #e7e7de;
+  color: $color-primary-dark;
+  background-color: $color-white;
   h2 {
     text-align: left;
     padding-left: 15%;
-    color: #00587a;
+    color: $color-primary;
   }
 
   hr {
     margin: 4px;
   }
   .experience-viewer {
-    border-radius: 20px;
     margin: 20px auto 50px auto;
     width: 70%;
     text-align: left;
@@ -25,13 +26,13 @@
   }
 
   .nav-panel {
-    margin: auto;
-    height: 80%;
+    height: 100%;
     width: 100%;
-  }
-
-  .nav-item {
-    height: 19.5%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: stretch;
+    justify-content: center;
   }
 
   .nav-title {
@@ -40,22 +41,27 @@
   }
 
   .nav-link {
-    color: #0f3057;
-    border: #e7e7de solid 1px;
-    border-radius: 5px;
-    height: 100%;
-  }
+    color: $color-primary-dark;
+    border: $color-white solid 1px;
+    // border-radius: 5px;
+    // height: 100%;
+    padding: 0.8rem 1.6rem;
+    background-image: linear-gradient(
+      120deg,
+      transparent 0%,
+      transparent 50%,
+      $color-primary 50%
+    );
+    background-size: 220%;
+    transition: all 0.3s;
 
-  /* Active tab */
-  .nav-link.active {
-    background-color: #00587a;
-    color: #e7e7de;
-  }
-
-  .nav-link:hover {
-    background-color: #e7e7de;
-    border: #00587a solid 1px;
-    color: #0f3057;
+    &.active,
+    &:hover {
+      // background-color: #00587a;
+      color: $color-white;
+      background-position: 100%;
+      //   transform: translateX(1rem);
+    }
   }
 
   .vl {
@@ -64,25 +70,27 @@
 
   .content-container {
     height: 425px;
-  }
+    h3 {
+      color: $color-primary;
+    }
+    a {
+      color: #0f3057;
+    }
 
-  .content-container a {
-    color: #00587a;
-  }
+    .float-left {
+      float: left;
+    }
 
-  .float-left {
-    float: left;
-  }
+    .float-right {
+      float: right;
+    }
 
-  .float-right {
-    float: right;
-  }
+    .experience-bullets {
+      padding: 10%;
+    }
 
-  .experience-bullets {
-    padding: 10%;
-  }
-
-  .experience-bullets .bold {
-    font-weight: bold;
+    .experience-bullets .bold {
+      font-weight: bold;
+    }
   }
 }

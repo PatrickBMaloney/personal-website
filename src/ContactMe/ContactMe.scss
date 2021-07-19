@@ -1,19 +1,31 @@
+@import "../sass/variables";
+
 #contact-me {
-  background-color: #e7e7de;
+  background-color: $color-white;
   text-align: center;
-  color: #00587a;
+  color: $color-primary;
   padding: 6% 0 6%;
   margin-bottom: 0;
-}
 
-#contact-me a {
-  color: #00587a;
-}
+  a {
+    color: $color-primary;
+    svg g g path:first-of-type {
+      fill: $color-primary;
+    }
+  }
 
-#contact-me .icon {
-  margin: 30px 50px 0;
-}
+  .icon {
+    margin: 30px 50px 0;
+  }
 
-#contact-me .icon:hover {
-  filter: grayscale(60%);
+  .icon:hover {
+    color: $color-primary-light;
+    g g path:first-of-type {
+      fill: $color-primary-light;
+    }
+  }
+
+  .MuiSvgIcon-fontSizeLarge {
+    font-size: 3.5rem;
+  }
 }

@@ -1,11 +1,21 @@
+@import "../sass/global";
+@import "../sass/variables";
+
 #projects {
   text-align: center;
   background-color: #00587a;
   color: #e7e7de;
   padding: 0 10% 10%;
+  font-size: 1.6rem;
 
   * {
     backface-visibility: hidden;
+  }
+
+  .MuiTypography-body1 {
+    font-family: "Open Sans", sans-serif;
+    font-size: $default-font-size;
+    color: $color-primary-dark;
   }
 
   h2 {
@@ -13,11 +23,7 @@
     padding-top: 7%;
   }
 
-  #accordion1,
-  #accordion2,
-  #accordion3,
-  #accordion4,
-  #accordion5 {
+  .MuiAccordion-root {
     background-color: #008891;
     color: #e7e7de;
   }
@@ -34,43 +40,62 @@
   .description-column {
     position: relative;
     width: 100%;
-    height: 100%;
+    // height: 100%;
     text-align: left;
     padding-left: 2%;
     padding-right: 2%;
-  }
 
-  .project-title {
-    padding-top: 10%;
-    color: #00587a;
-  }
+    .project-title {
+      padding-top: 4rem;
+      color: #00587a;
+    }
 
-  .project-description {
-    padding: 3% 0 15%;
-  }
+    .project-description {
+      padding: 2rem 0 7rem;
+      margin-bottom: 0;
+    }
 
-  .description-column .devpost {
-    color: #008891;
-    position: absolute;
-    bottom: 22px;
-    left: 55px;
-  }
+    .project__links {
+      position: relative;
+      margin-bottom: 2rem;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      align-items: center;
+      justify-content: flex-start;
 
-  .description-column .github {
-    color: #008891;
-    position: absolute;
-    bottom: 30px;
-  }
+      > a {
+        color: #008891;
+        margin-right: 2rem;
+        .MuiSvgIcon-fontSizeLarge {
+          font-size: 3.5rem;
+        }
+      }
+    }
 
-  .description-column .play-store {
-    color: #008891;
-    position: absolute;
-    bottom: 27px;
-    left: 60px;
-  }
+    // .devpost {
+    //   color: #008891;
+    //   position: absolute;
+    //   bottom: 22px;
+    //   left: 55px;
+    // }
 
-  .description-column a:hover {
-    filter: grayscale(50%);
+    // .github {
+    //   color: #008891;
+    //   position: absolute;
+    //   bottom: 30px;
+    // }
+
+    // .play-store {
+    //   color: #008891;
+    //   position: absolute;
+    //   bottom: 27px;
+    //   left: 60px;
+    // }
+
+    a:hover {
+      filter: grayscale(50%);
+    }
   }
 
   .media-column {

@@ -1,49 +1,48 @@
+@import "../sass/variables";
+
 .header-section {
-  background-color: #e7e7de;
+  background-color: $color-white;
   margin-top: 0px;
   padding: 0px 15%;
-  color: #00587a;
+  color: $color-primary;
 
   h1 {
     margin-top: 20vh;
     padding: 0 0 30px;
   }
-}
 
-.header-col {
-  height: 97vh;
-}
-
-.header-links {
-  text-align: center;
-  margin-top: 17vh;
-  .MuiSvgIcon-fontSizeLarge {
-    font-size: 3.5rem;
+  .header-col {
+    height: 97vh;
   }
-}
 
-.icon {
-  margin: 0 21% 0 0;
-  color: #00587a;
-}
+  .header-links {
+    text-align: center;
+    margin-top: 17vh;
+    .MuiSvgIcon-fontSizeLarge {
+      font-size: 3.5rem;
+    }
+  }
 
-.icon:hover {
-  filter: grayscale(60%);
-}
+  .icon {
+    margin: 0 21% 0 0;
+    color: $color-primary;
+    &:hover {
+      color: $color-primary-light;
+    }
+  }
 
-.name {
-  color: #008891;
-}
+  .name {
+    color: $color-secondary;
+  }
 
-.head-shot {
-  height: 50%;
-  border-radius: 100%;
-  margin: 17vh auto;
-  display: block;
-}
+  .head-shot {
+    height: 50%;
+    border-radius: 100%;
+    margin: 17vh auto;
+    display: block;
+  }
 
-@media (max-width: 1028px) {
-  .header-section {
+  @media (max-width: 1028px) {
     height: auto;
     .header-col {
       height: auto;

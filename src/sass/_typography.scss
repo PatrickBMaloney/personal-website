@@ -3,8 +3,7 @@
 body {
   font-family: "Open Sans", sans-serif;
   font-size: $default-font-size;
-  //   color: $default-font-size;
-  background-color: red;
+  color: $color-primary-dark;
 }
 
 h1 {
@@ -14,8 +13,18 @@ h1 {
 }
 
 h2 {
-  font-size: 3.52rem;
+  font-size: 4rem;
   margin-bottom: 3rem;
+}
+
+h3 {
+  font-size: 3rem;
+  margin-bottom: 0.8rem;
+}
+
+h4 {
+  font-size: 2.8rem;
+  margin-bottom: 0.8rem;
 }
 
 p {
