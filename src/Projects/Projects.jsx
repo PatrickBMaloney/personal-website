@@ -318,12 +318,11 @@ export default function Projects() {
                   </div>
                 </Col>
                 <Col sm={6} className="media-column">
-                  <iframe
-                    className="faceup-video"
-                    src="https://drive.google.com/file/d/1DucVWRb1USnDj5gSVCRFHzYgdu_SOtHE/preview"
-                    width="640"
-                    height="480"
-                  ></iframe>
+                  <img
+                    src="images/vuzix-blade.png"
+                    alt="vuzix blade smart glasses"
+                    className="vuzix-img"
+                  />
                 </Col>
               </Row>
             </Typography>

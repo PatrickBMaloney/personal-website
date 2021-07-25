@@ -12,10 +12,18 @@
     backface-visibility: hidden;
   }
 
+  .MuiIconButton-root {
+    font-size: 2.4rem;
+    .MuiSvgIcon-root {
+      font-size: 2.4rem;
+    }
+  }
+
   .MuiTypography-body1 {
     font-family: "Open Sans", sans-serif;
     font-size: $default-font-size;
     color: $color-primary-dark;
+    width: 100%;
   }
 
   h2 {
@@ -110,14 +118,6 @@
     padding-top: 5%;
     max-width: 500px;
     margin: auto;
-  }
-
-  .faceup-video {
-    width: 100%;
-    height: 300px;
-    margin: 0 auto;
-    display: inline-block;
-    border: none;
   }
 
   .mediband-img {

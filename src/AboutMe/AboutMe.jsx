@@ -76,7 +76,7 @@ const AboutMe = () => {
               a BASc in Biomedical Engineering with an option in Computing.
               Through my studies and co-op experience, I have developed a strong
               passion for software engineering, and I plan to make a career out
-              of it. I am currently searching for a summer 2021 co-op position
+              of it. I am currently searching for a winter 2022 co-op position
               in software development.
             </p>
             <p>

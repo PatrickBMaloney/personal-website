@@ -41,10 +41,12 @@
   }
 
   .nav-link {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    align-items: center;
+
     color: $color-primary-dark;
     border: $color-white solid 1px;
-    // border-radius: 5px;
-    // height: 100%;
     padding: 0.8rem 1.6rem;
     background-image: linear-gradient(
       120deg,
@@ -55,12 +57,47 @@
     background-size: 220%;
     transition: all 0.3s;
 
+    .experience-section__company-logo-div {
+      grid-column: 1 / 2;
+      text-align: center;
+    }
+
+    .experience-section__company-logo--ibm {
+      height: 36px;
+      width: 90px;
+      & > path {
+        transform-origin: 0 0;
+        transform: scale(0.09);
+      }
+    }
+    .experience-section__company-logo--brt {
+      height: 63px;
+    }
+    .experience-section__company-logo--ford {
+      // height: 63px;
+      path.path-white {
+        fill: $color-white;
+      }
+    }
+    .experience-section__company-logo--grh {
+      height: 40px;
+    }
+    .experience-section__job-title-div {
+      grid-column: 2 / 3;
+      padding-left: 1rem;
+    }
+
     &.active,
     &:hover {
-      // background-color: #00587a;
       color: $color-white;
       background-position: 100%;
-      //   transform: translateX(1rem);
+
+      .experience-section__company-logo path {
+        fill: $color-white;
+        &.path-white {
+          fill: $color-primary;
+        }
+      }
     }
   }
 
