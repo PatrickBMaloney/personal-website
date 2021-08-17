@@ -22,7 +22,6 @@ const Experience = () => {
                           className="experience-section__company-logo experience-section__company-logo--ibm"
                           xmlns="http://www.w3.org/2000/svg"
                           version="1.1"
-                          // xmlns:xlink="http://www.w3.org/1999/xlink"
                           width="1000"
                           height="400"
                         >
@@ -259,25 +258,20 @@ const Experience = () => {
                     <p className="float-right">May 2021 - Aug. 2021</p>
                     <ul className="experience-bullets">
                       <li>
-                        Developed a SIEM web app using a variety of technologies
-                        including <span className="bold">React.js</span>,{" "}
+                        Developed a SIEM web app using technologies including <span className="bold">React</span>,{" "}
+                        <span className="bold">JS</span>,{" "}
                         <span className="bold">Sass</span>,{" "}
                         <span className="bold">Node.js</span>,{" "}
-                        <span className="bold">Docker</span>,{" "}
                         <span className="bold">SQLite</span>, and{" "}
-                        <span className="bold">NoSQL DBs</span>
+                        <span className="bold">TingoDB</span>
                       </li>
                       <li>
-                        Wrote Restful APIs in{" "}
-                        <span className="bold">Node.js</span> for new and legacy
-                        web applications while applying web development
-                        engineering best practices
+                        Created custom <span className="bold">React</span> components and RESTful APIs in <span className="bold">Node.js</span> to support the searching, filtering, and visualization
+                        of large amounts of cybersecurity offence and rule data
                       </li>
                       <li>
-                        Designed and developed a data-heavy visualization report
-                        to allow clients to view exported SIEM rules offline
-                        using vanilla <span className="bold">HTML</span> and{" "}
-                        <span className="bold">CSS</span>
+                        Independently designed and implemented a new feature allowing clients to export a zip file with an interactive HTML
+                        report displaying visualizations of their SIEM data for offline viewing
                       </li>
                     </ul>
                   </div>
@@ -299,15 +293,15 @@ const Experience = () => {
                         stability and maintainability
                       </li>
                       <li>
+                        Completely redesigned the team’s API to allow for
+                        request status callbacks and a more efficient use-case-based
+                        requesting interface
+                      </li>
+                      <li>
                         Expanded unit test coverage by 25% using{" "}
                         <span className="bold">gtest</span> and{" "}
                         <span className="bold">gmock</span> frameworks within
                         first two weeks
-                      </li>
-                      <li>
-                        Completely redesigned the team’s API to allow for
-                        request status callbacks and a simplified use case based
-                        requesting interface
                       </li>
                     </ul>
                   </div>
@@ -361,11 +355,9 @@ const Experience = () => {
                         and access management
                       </li>
                       <li>
-                        Wrote clean code in{" "}
-                        <span className="bold">JavaScript</span>,{" "}
-                        <span className="bold">HTML</span>, and{" "}
-                        <span className="bold">CSS</span> for the company’s
-                        internal and external websites
+                        Used{" "}
+                        <span className="bold">React</span> and{" "}
+                        <span className="bold">CSS</span> to implement new features and defect fixes to support the development of a client web app
                       </li>
                       <li>
                         Developed coding best practice and company standards
