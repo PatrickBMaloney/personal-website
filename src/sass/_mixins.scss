@@ -8,9 +8,9 @@
 
 @mixin absCenter {
   position: absolute;
+  transform: translate(-50%, -50%);
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
 }
 
 // MEDIA QUERY MANAGER
@@ -29,8 +29,8 @@ $breakpoint arguement choices:
 */
 @mixin respond($breakpoint) {
   @if $breakpoint == phone {
-    @media only screen and (max-width: 37.5em) {
-      //600px
+    @media only screen and (max-width: 36em) {
+      //576px
       @content;
     }
   }

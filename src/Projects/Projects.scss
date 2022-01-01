@@ -1,5 +1,6 @@
 @import "../sass/global";
 @import "../sass/variables";
+@import "../sass/mixins";
 
 #projects {
   text-align: center;
@@ -48,7 +49,6 @@
   .description-column {
     position: relative;
     width: 100%;
-    // height: 100%;
     text-align: left;
     padding-left: 2%;
     padding-right: 2%;
@@ -81,26 +81,6 @@
       }
     }
 
-    // .devpost {
-    //   color: #008891;
-    //   position: absolute;
-    //   bottom: 22px;
-    //   left: 55px;
-    // }
-
-    // .github {
-    //   color: #008891;
-    //   position: absolute;
-    //   bottom: 30px;
-    // }
-
-    // .play-store {
-    //   color: #008891;
-    //   position: absolute;
-    //   bottom: 27px;
-    //   left: 60px;
-    // }
-
     a:hover {
       filter: grayscale(50%);
     }
@@ -108,25 +88,28 @@
 
   .media-column {
     text-align: center;
+    @include respond(phone) {
+      // width < 575?
+      order: -1;
+      min-height: 150px;
+    }
   }
 
-  .media-column img {
-    height: 300px;
+  .media-column > img {
+    max-height: 300px;
+    max-width: 100%;
+    @include absCenter;
+    @include respond(phone) {
+      height: 90%;
+    }
   }
 
   .spotifind-carousel {
     padding-top: 5%;
+    width: 90%;
     max-width: 500px;
     margin: auto;
-  }
-
-  .mediband-img {
-    height: 90%;
-    margin: 5% auto 5%;
-  }
-
-  .grocery-img {
-    margin-top: 9%;
+    @include absCenter;
   }
 
   .MuiTypography-h6 {

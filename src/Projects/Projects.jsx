@@ -31,8 +31,8 @@ export default function Projects() {
           <AccordionDetails className="accordian-details">
             <Typography>
               <Row>
-                <Col>
-                  <div sm={6} className="description-column">
+                <Col sm={6}>
+                  <div className="description-column">
                     <h4 className="project-title">Watopoly</h4>
                     <p className="project-description">
                       Watopoly is a two to five multiplayer, pass-and-play,
@@ -132,8 +132,8 @@ export default function Projects() {
           <AccordionDetails className="accordian-details">
             <Typography>
               <Row>
-                <Col>
-                  <div sm={6} className="description-column">
+                <Col sm={6}>
+                  <div className="description-column">
                     <h4 className="project-title">SpotiFind</h4>
                     <p className="project-description">
                       SpotiFind is a web app that takes in your Spotify
@@ -161,8 +161,8 @@ export default function Projects() {
                           xmlns="http://www.w3.org/2000/svg"
                           x="0px"
                           y="0px"
-                          width="48"
-                          height="48"
+                          width="3em"
+                          height="3em"
                           viewBox="0 0 226 226"
                           styles={{ fill: "white" }}
                         >
@@ -252,8 +252,8 @@ export default function Projects() {
           <AccordionDetails className="accordian-details">
             <Typography>
               <Row>
-                <Col>
-                  <div sm={6} className="description-column">
+                <Col sm={6}>
+                  <div className="description-column">
                     <h4 className="project-title">FaceUp</h4>
                     <h6>
                       <FontAwesomeIcon icon={faTrophy} color="#DAB900" />{" "}
@@ -279,8 +279,8 @@ export default function Projects() {
                           xmlns="http://www.w3.org/2000/svg"
                           x="0px"
                           y="0px"
-                          width="48"
-                          height="48"
+                          width="3em"
+                          height="3em"
                           viewBox="0 0 226 226"
                           styles={{ fill: "white" }}
                         >
@@ -370,8 +370,8 @@ export default function Projects() {
                           xmlns="http://www.w3.org/2000/svg"
                           x="0px"
                           y="0px"
-                          width="48"
-                          height="48"
+                          width="3em"
+                          height="3em"
                           viewBox="0 0 226 226"
                           styles={{ fill: "white" }}
                         >
@@ -431,8 +431,8 @@ export default function Projects() {
           <AccordionDetails className="accordian-details">
             <Typography>
               <Row>
-                <Col>
-                  <div sm={6} className="description-column">
+                <Col sm={6}>
+                  <div className="description-column">
                     <h4 className="project-title">EasyShopper</h4>
                     <p className="project-description">
                       EasyShopper is a Pantry Management Tool to automate a
@@ -460,8 +460,8 @@ export default function Projects() {
                           xmlns="http://www.w3.org/2000/svg"
                           x="0px"
                           y="0px"
-                          width="48"
-                          height="48"
+                          width="3em"
+                          height="3em"
                           viewBox="0 0 226 226"
                           styles={{ fill: "white" }}
                         >
