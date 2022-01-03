@@ -1,12 +1,34 @@
 @import "../sass/variables";
+@import "../sass/mixins";
 
 .about-me-section {
   background-color: $color-primary;
   color: $color-white;
+  @include respond(tab-port) {
+    .about-me-row > div {
+      flex-basis: 100%;
+      max-width: 100%;
+    }
+  }
   .about-me-description {
     width: 90%;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 80px 30px 80px 20px;
+    padding: 2rem;
+    @include absCenter;
+    @media only screen and (max-width: 63.75em) and (min-width: 56.25em) {
+      //1020px
+      h2 {
+        margin-bottom: 1.5rem;
+        font-size: 3.5rem;
+      }
+      p {
+        font-size: 1.4rem;
+      }
+    }
+    @include respond(tab-port) {
+      position: static;
+      transform: none;
+      margin: auto;
+      padding: 6rem 2rem;
+    }
   }
 }

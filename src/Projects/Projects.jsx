@@ -71,6 +71,7 @@ export default function Projects() {
                     controls={false}
                     indicators={false}
                     interval={3000}
+                    fade
                   >
                     <Carousel.Item>
                       <img
@@ -205,6 +206,7 @@ export default function Projects() {
                     controls={false}
                     indicators={false}
                     interval={3000}
+                    fade
                   >
                     <Carousel.Item>
                       <img

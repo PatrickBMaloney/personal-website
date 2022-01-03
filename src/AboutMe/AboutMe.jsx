@@ -72,18 +72,19 @@ const AboutMe = () => {
           <div className="about-me-description">
             <h2>About Me</h2>
             <p>
-              I'm a third-year student at The University of Waterloo completing
+              I'm a fourth-year student at The University of Waterloo completing
               a BASc in Biomedical Engineering with an option in Computing.
               Through my studies and co-op experience, I have developed a strong
               passion for software engineering, and I plan to make a career out
-              of it. I am currently searching for a winter 2022 co-op position
-              in software development.
+              of it. I am currently completing my fifth co-op as a Software Developer
+              at Lifion by ADP and will start my final co-op in May 2022 as an SDE
+              at Amazon.
             </p>
             <p>
-              Some of my interests include competing in hackathons, playing
-              intramural sports, playing new board games with friends, and
-              participating in UWaterloo's engineering community through
-              leadership roles.
+              Some of my interests include expanding my software engineering knowledge, 
+              competing in hackathons, playing intramural sports, playing board games with
+              friends, and participating in UWaterloo's engineering community through
+              various leadership roles.
             </p>
           </div>
         </Col>

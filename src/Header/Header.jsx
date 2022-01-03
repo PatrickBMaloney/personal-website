@@ -10,60 +10,63 @@ import "./Header.scss";
 const Header = () => {
   return (
     <div className="header-section">
-      <Row>
-        <Col className="header-col" sm={6}>
+      {/* <Row> */}
+        {/* <Col className="header-col" sm={6}> */}
+        <div className="intro-div">
           <h1>
             Hi, I'm <span className="name">Patrick Maloney</span>
           </h1>
           <p>
             I am an engineering student at The University of Waterloo, pursuing
-            a career in software engineering. I'm currently searching for a
-            winter 2022 co-op position!
+            a career in software engineering!
           </p>
-          <div className="header-links">
-            <Row>
-              <Col lg={6}>
-                <Row>
-                  <Col>
-                    <a href="https://github.com/PatrickBMaloney">
-                      <GitHubIcon className="icon" fontSize="large" />
-                    </a>
-                  </Col>
-                  <Col>
-                    <a href="mailto:pbmaloney@uwaterloo.ca">
-                      <MailOutlineIcon className="icon" fontSize="large" />
-                    </a>
-                  </Col>
-                </Row>
-              </Col>
-              <Col lg={6}>
-                <Row>
-                  <Col>
-                    <a href="https://www.linkedin.com/in/patrickbmaloney/">
-                      <LinkedInIcon className="icon" fontSize="large" />
-                    </a>
-                  </Col>
-                  <Col>
-                    <a href="Resume_.pdf">
-                      <DescriptionIcon
-                        className="icon last-icon"
-                        fontSize="large"
-                      />
-                    </a>
-                  </Col>
-                </Row>
-              </Col>
-            </Row>
-          </div>
-        </Col>
-        <Col className="header-col" sm={6}>
+        </div>
+        <div className="header-links-container">
+          <Row>
+            <Col lg={6}>
+              <Row className="header-links-row">
+                <Col>
+                  <a href="https://github.com/PatrickBMaloney">
+                    <GitHubIcon className="icon" fontSize="large" />
+                  </a>
+                </Col>
+                <Col>
+                  <a href="mailto:pbmaloney@uwaterloo.ca">
+                    <MailOutlineIcon className="icon" fontSize="large" />
+                  </a>
+                </Col>
+              </Row>
+            </Col>
+            <Col lg={6}>
+              <Row className="header-links-row">
+                <Col>
+                  <a href="https://www.linkedin.com/in/patrickbmaloney/">
+                    <LinkedInIcon className="icon" fontSize="large" />
+                  </a>
+                </Col>
+                <Col>
+                  <a href="Resume_.pdf">
+                    <DescriptionIcon
+                      className="icon last-icon"
+                      fontSize="large"
+                    />
+                  </a>
+                </Col>
+              </Row>
+            </Col>
+          </Row>
+        </div>
+        {/* </Col> */}
+        {/* <Col className="header-col" sm={6}> */}
+        <div className="head-shot-container">
           <img
             className="head-shot"
             src="images/head-shot.jpg"
             alt="Patrick Maloney"
           />
-        </Col>
-      </Row>
+        </div>
+        {/* </Col> */}
+      {/* </Row> */}
     </div>
   );
 };

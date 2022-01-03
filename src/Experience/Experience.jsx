@@ -14,7 +14,7 @@ const Experience = () => {
           <Row>
             <Col sm={4}>
               <div className="flex-container">
-                <Nav className="flex-column nav-panel">
+                <Nav className="nav-panel">
                   <Nav.Item>
                     <Nav.Link eventKey="first">
                       <div className="experience-section__company-logo-div">
@@ -244,7 +244,7 @@ const Experience = () => {
               </div>
             </Col>
             <Col sm={0.5} className="vl"></Col>
-            <Col>
+            <Col className="description-column">
               <Tab.Content className="content-container">
                 <Tab.Pane eventKey="first">
                   <div>
