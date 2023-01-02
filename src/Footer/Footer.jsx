@@ -4,7 +4,7 @@ import "./Footer.scss";
 const Footer = () => {
   return (
     <div id="footer">
-      <p>Built by Patrick Maloney with React | Copyright © 2021</p>
+      <p>Built by Patrick Maloney with React | Copyright © 2023</p>
     </div>
   );
 };
