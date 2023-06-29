@@ -98,6 +98,11 @@
   .media-column > img {
     max-height: 300px;
     max-width: 100%;
+    &.watopoly-gif {
+      width: 90%;
+      max-width: 500px;
+      margin: auto;
+    }
     @include absCenter;
     @include respond(phone) {
       height: 90%;

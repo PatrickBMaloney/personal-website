@@ -66,7 +66,7 @@ export default function Projects() {
                   </div>
                 </Col>
                 <Col sm={6} className="media-column">
-                  <Carousel
+                  {/* <Carousel
                     className="spotifind-carousel"
                     controls={false}
                     indicators={false}
@@ -115,7 +115,8 @@ export default function Projects() {
                         alt="Sixth slide"
                       />
                     </Carousel.Item>
-                  </Carousel>
+                  </Carousel> */}
+                  <img className="watopoly-gif" src="images/watopoly.gif"/>
                 </Col>
               </Row>
             </Typography>

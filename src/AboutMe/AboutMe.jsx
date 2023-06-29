@@ -21,7 +21,7 @@ const AboutMe = () => {
               <img
                 className="d-block w-100"
                 src="images/brick-hack.jpg"
-                alt="Picture with medal and prizes after winning Brick Hack."
+                alt="Patrick with teamates, medal, and prizes after winning Brick Hack."
               />
             </Carousel.Item>
             <Carousel.Item>
@@ -35,7 +35,7 @@ const AboutMe = () => {
               <img
                 className="d-block w-100"
                 src="images/dr-with-tom.jpg"
-                alt="Picture of Patrick and friend wearing engineering coveralls while standing on top of Mount Martain in Deep River Ontario."
+                alt="Patrick and friend wearing engineering coveralls while standing on top of Mount Martain in Deep River Ontario."
               />
             </Carousel.Item>
             <Carousel.Item>
@@ -49,14 +49,14 @@ const AboutMe = () => {
               <img
                 className="d-block w-100"
                 src="images/res-council.jpg"
-                alt="Picture of University of Waterloo's residence council. Patrick was the Vice President."
+                alt="University of Waterloo's residence council. Patrick was the Vice President."
               />
             </Carousel.Item>
             <Carousel.Item>
               <img
                 className="d-block w-100"
                 src="images/frisbee.jpg"
-                alt="Picture of Patrick's intramural ultimate frisbee team."
+                alt="Patrick's intramural ultimate frisbee team."
               />
             </Carousel.Item>
             <Carousel.Item>
