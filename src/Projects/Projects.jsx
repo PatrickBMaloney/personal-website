@@ -66,57 +66,7 @@ export default function Projects() {
                   </div>
                 </Col>
                 <Col sm={6} className="media-column">
-                  {/* <Carousel
-                    className="spotifind-carousel"
-                    controls={false}
-                    indicators={false}
-                    interval={3000}
-                    fade
-                  >
-                    <Carousel.Item>
-                      <img
-                        className="d-block w-100"
-                        src="images/watopoly/wat_image_1.webp"
-                        alt="First slide"
-                      />
-                    </Carousel.Item>
-                    <Carousel.Item>
-                      <img
-                        className="d-block w-100"
-                        src="images/watopoly/wat_image_2.webp"
-                        alt="Second slide"
-                      />
-                    </Carousel.Item>
-                    <Carousel.Item>
-                      <img
-                        className="d-block w-100"
-                        src="images/watopoly/wat_image_3.webp"
-                        alt="Third slide"
-                      />
-                    </Carousel.Item>
-                    <Carousel.Item>
-                      <img
-                        className="d-block w-100"
-                        src="images/watopoly/wat_image_5.webp"
-                        alt="Fourth slide"
-                      />
-                    </Carousel.Item>
-                    <Carousel.Item>
-                      <img
-                        className="d-block w-100"
-                        src="images/watopoly/wat_image_6.webp"
-                        alt="Fifth slide"
-                      />
-                    </Carousel.Item>
-                    <Carousel.Item>
-                      <img
-                        className="d-block w-100"
-                        src="images/watopoly/wat_image_7.webp"
-                        alt="Sixth slide"
-                      />
-                    </Carousel.Item>
-                  </Carousel> */}
-                  <img className="watopoly-gif" src="images/watopoly.gif"/>
+                  <img className="watopoly-gif" src="images/watopoly.gif" alt="Gif showing multiple screens from the Watopoly app"/>
                 </Col>
               </Row>
             </Typography>

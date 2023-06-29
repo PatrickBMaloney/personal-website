@@ -4,10 +4,19 @@
 .about-me-section {
   background-color: $color-primary;
   color: $color-white;
+  .carousel-component img {
+    max-height: 35vw;
+    width: 100%;
+    object-fit: cover;
+  }
   @include respond(tab-port) {
     .about-me-row > div {
       flex-basis: 100%;
       max-width: 100%;
+      
+    .carousel-component img {
+      max-height: 70vw;
+    }
     }
   }
   .about-me-description {
