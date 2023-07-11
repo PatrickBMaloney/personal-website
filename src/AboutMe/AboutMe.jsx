@@ -72,10 +72,10 @@ const AboutMe = () => {
           <div className="about-me-description">
             <h2>About Me</h2>
             <p>
-              I'm a fourth-year student at The University of Waterloo, completing a BASc in Biomedical Engineering with an option in Computing. Through my studies and co-op experience, I have developed a strong passion for software engineering. In the last five years, I had the privilege to complete six software engineering internships at some amazing companies. As I finish up my degree, I am in search of a permanent full-time position as a software engineer.
+            I just graduated from The University of Waterloo, where I completed a BASc in Biomedical Engineering with an option in Computing. Through my studies and co-op experience, I developed a strong passion for software engineering. In the last five years, I had the privilege to complete six software engineering internships at some amazing companies. I am currently searching for a permanent full-time position as a software engineer.
             </p>
             <p>
-              Some of my interests include expanding my software engineering knowledge, competing in hackathons, playing intramural sports, hiking, skiing and travelling.
+              Some of my interests include expanding my software engineering knowledge, competing in hackathons, playing intramural sports, hiking, skiing, and travelling.
             </p>
           </div>
         </Col>

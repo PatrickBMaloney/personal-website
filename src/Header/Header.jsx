@@ -16,10 +16,9 @@ const Header = () => {
           <h1>
             Hi, I'm <span className="name">Patrick Maloney</span>
           </h1>
-          <p>
-            I am an engineering student at The University of Waterloo, pursuing
-            a career in software engineering!
-          </p>
+          <h5>
+            Full Stack Software Engineer
+          </h5>
         </div>
         <div className="header-links-container">
           <Row>
