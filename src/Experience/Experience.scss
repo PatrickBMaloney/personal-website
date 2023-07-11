@@ -17,8 +17,9 @@
   }
   .experience-viewer {
     margin: 20px auto 50px auto;
-    width: 70%;
+    width: 90%;
     text-align: left;
+    max-width: 1300px;
   }
 
   .flex-container {
@@ -138,14 +139,43 @@
     }
   }
 
+  @include respond(tab-land) {
+    // width < 1200?
+    .experience-section__job-title-div {
+      display: none;
+    }
+
+    .nav-item {
+      height: 60px;
+    }
+
+    .nav-link {
+      display: block;
+      margin: auto;
+      position: relative;
+      height: 100%;
+    }
+
+    .experience-section__company-logo-div {
+      @include absCenter;
+    }
+
+    .experience-section__company-logo--ford {
+      width: 90px;
+    }
+
+    .experience-viewer {
+      width: 70%
+    }
+  }
+
   @include respond(phone) {
     .nav-panel {
       display: grid;
       grid-template-columns: repeat(3, 1fr);
-      grid-template-rows: 50% 50%;
       justify-items: stretch;
       align-items: center;
-      height: 120px;
+      height: 180px;
 
       .nav-link {
         display: block;
@@ -180,6 +210,10 @@
 
     .content-container .experience-bullets {
       margin-top: 5%;
+    }
+
+    .experience-viewer {
+      width: 80%
     }
   }
 }
