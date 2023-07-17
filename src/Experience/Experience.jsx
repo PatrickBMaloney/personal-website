@@ -345,10 +345,10 @@ const Experience = () => {
                     <p className="float-right">May 2022 - Aug. 2022</p>
                     <ul className="experience-bullets">
                       <li>
-                        Designed and implemented a web page to allow corporate Amazon Gift Card clients to view their transaction volumes and troubleshoot their failed API requests, empowering them to solve issues without contacting support
+                        Designed and implemented a user-friendly dashboard for corporate Amazon Gift Card clients, enabling them to independently view transaction volumes and troubleshoot failed API requests without contacting customer support
                       </li>
                       <li>
-                        Constructed a production-ready <span className="bold">React</span> application, <span className="bold">Spring Boot</span> APIs, and <span className="bold">AWS Lambdas</span> to query a <span className="bold">PostgreSQL</span> database, aggregate data and display informative visualizations to the client
+                        Developed a robust <span className="bold">React</span> application, <span className="bold">Spring Boot</span> APIs, and <span className="bold">AWS Lambdas</span> to efficiently query a <span className="bold">PostgreSQL</span> database, aggregate data, and present informative visualizations to the client
                       </li>
                     </ul>
                   </div>

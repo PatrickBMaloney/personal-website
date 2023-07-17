@@ -19,7 +19,64 @@ export default function Projects() {
     <div id="projects">
       <h2>My Projects</h2>
       <div>
-        <Accordion id="accordion1" defaultExpanded>
+        <Accordion id="accordion0" defaultExpanded>
+          <AccordionSummary
+            className="accordian-summary"
+            expandIcon={<ExpandMoreIcon styles={{ color: green[500] }} />}
+            aria-controls="panel1a-content"
+            id="panel1a-header"
+          >
+            <Typography variant="h6">Pneumo Sense</Typography>
+          </AccordionSummary>
+          <AccordionDetails className="accordian-details">
+            <Typography>
+              <Row>
+                <Col sm={6}>
+                  <div className="description-column">
+                    <h4 className="project-title">Pneumo Sense</h4>
+                    <p className="project-description">
+                      I lead the design and development of a React Native app, 
+                      currently in use by doctors and researchers, that captures 
+                      photos of lung ultrasounds from a mobile phone and uses image 
+                      processing and AI to detect Pneumothorax. The application was 
+                      developed in partnership with a research group that specializes 
+                      in developing AI for the interpretation of lung ultrasounds. 
+                      I worked on this project as a part of my fourth-year engineering 
+                      capstone project along with three of my classmates. As the only 
+                      software developer on the team, I lead the development of the 
+                      React Native app. Technologies used in the development of the 
+                      app included React Native, JavaScript, Native Modules (Java), 
+                      OpenCV, TFLite, and UI Kitten. The app will be added to the 
+                      Google Play Store soon. 
+                    </p>
+                    <div className="project__links">
+                      {/* <a
+                        href="https://github.com/PatrickBMaloney/Watopoly"
+                        className="github"
+                      >
+                        <GitHubIcon fontSize="large" />
+                      </a>
+                      <a
+                        href="https://play.google.com/store/apps/details?id=com.cathy.watopoly"
+                        className="play-store"
+                      >
+                        <FontAwesomeIcon
+                          icon={faGooglePlay}
+                          color="#008891"
+                          size="2x"
+                        />
+                      </a> */}
+                    </div>
+                  </div>
+                </Col>
+                <Col sm={6} className="media-column">
+                  <video src="https://drive.google.com/uc?id=1smhkUWmSFeTUgyFNWpfu-Zs7-vXjcW4O" height="500" autoPlay loop muted />
+                </Col>
+              </Row>
+            </Typography>
+          </AccordionDetails>
+        </Accordion>
+        <Accordion id="accordion1">
           <AccordionSummary
             className="accordian-summary"
             expandIcon={<ExpandMoreIcon styles={{ color: green[500] }} />}
