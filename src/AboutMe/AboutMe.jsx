@@ -48,8 +48,8 @@ const AboutMe = () => {
             <Carousel.Item>
               <img
                 className="d-block w-100"
-                src="images/res-council.jpg"
-                alt="University of Waterloo's residence council. Patrick was the Vice President."
+                src="images/ha-giang-loop.jpg"
+                alt="Patrick standing in front of mountains and rice paddy fields during his Ha Giang Loop motorcycle trip."
               />
             </Carousel.Item>
             <Carousel.Item>
@@ -72,7 +72,7 @@ const AboutMe = () => {
           <div className="about-me-description">
             <h2>About Me</h2>
             <p>
-            I just graduated from The University of Waterloo, where I completed a BASc in Biomedical Engineering with an option in Computing. Through my studies and co-op experience, I developed a strong passion for software engineering. In the last five years, I had the privilege to complete six software engineering internships at some amazing companies. I am currently searching for a permanent full-time position as a software engineer.
+            I just graduated from The University of Waterloo, where I completed a BASc in Systems Design Engineering with an option in Computing. Through my studies and co-op experience, I developed a strong passion for software engineering. In the last five years, I had the privilege to complete six software engineering internships at some amazing companies. I am currently searching for a permanent full-time position as a software engineer.
             </p>
             <p>
               Some of my interests include expanding my software engineering knowledge, competing in hackathons, playing intramural sports, hiking, skiing, and travelling.
