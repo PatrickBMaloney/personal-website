@@ -44,7 +44,7 @@ const Header = () => {
                   </a>
                 </Col>
                 <Col>
-                  <a href="Resume_.pdf">
+                  <a href="Resume.pdf">
                     <DescriptionIcon
                       className="icon last-icon"
                       fontSize="large"

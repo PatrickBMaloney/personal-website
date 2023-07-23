@@ -23,7 +23,7 @@ const NavBar = () => {
             <Nav.Link className="nav-link" href="#contact-me">
               Contact Me
             </Nav.Link>
-            <Nav.Link className="nav-link" href="Resume_.pdf">
+            <Nav.Link className="nav-link" href="Resume.pdf">
               Resume
             </Nav.Link>
           </Nav>

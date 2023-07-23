@@ -65,7 +65,7 @@ const ContactMe = () => {
             </g>
           </svg>
         </a>
-        <a href="Resume_.pdf">
+        <a href="Resume.pdf">
           <DescriptionIcon className="icon" fontSize="large" />
         </a>
       </div>
