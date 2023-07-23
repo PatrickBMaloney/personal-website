@@ -7,6 +7,9 @@ import Experience from "./Experience/Experience.jsx";
 import Projects from "./Projects/Projects.jsx";
 import ContactMe from "./ContactMe/ContactMe.jsx";
 import Footer from "./Footer/Footer.jsx";
+import ReactGA from 'react-ga';
+const TRACKING_ID = "G-KMC3PYM0HJ";
+ReactGA.initialize(TRACKING_ID);
 
 function App() {
   return (

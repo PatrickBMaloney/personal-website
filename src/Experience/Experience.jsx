@@ -3,6 +3,7 @@ import Tab from "react-bootstrap/Tab";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Nav from "react-bootstrap/Nav";
+import ReactGA from "react-ga";
 import "./Experience.scss";
 
 const Experience = () => {
@@ -15,7 +16,7 @@ const Experience = () => {
             <Col sm={4}>
               <div className="flex-container">
                 <Nav className="nav-panel">
-                  <Nav.Item>
+                  <Nav.Item onClick={()=>ReactGA.event({category: "Experience", action: "Amazon", label: "test label"})}>
                     <Nav.Link eventKey="first">
                       <div className="experience-section__company-logo-div">
                         <svg 
@@ -83,7 +84,7 @@ const Experience = () => {
                       </div>
                     </Nav.Link>
                   </Nav.Item>
-                  <Nav.Item>
+                  <Nav.Item onClick={()=>ReactGA.event({category: "Experience", action: "Lifion by ADP", label: "test label"})}>
                     <Nav.Link eventKey="second">
                       <div className="experience-section__company-logo-div">
                         <svg
@@ -105,7 +106,7 @@ const Experience = () => {
                       </div>
                     </Nav.Link>
                   </Nav.Item>
-                  <Nav.Item>
+                  <Nav.Item onClick={()=>ReactGA.event({category: "Experience", action: "IBM", label: "test label"})}>
                     <Nav.Link eventKey="third">
                       <div className="experience-section__company-logo-div">
                         <svg
@@ -127,7 +128,7 @@ const Experience = () => {
                       </div>
                     </Nav.Link>
                   </Nav.Item>
-                  <Nav.Item>
+                  <Nav.Item onClick={()=>ReactGA.event({category: "Experience", action: "Ford 2", label: "test label"})}>
                     <Nav.Link eventKey="forth">
                       <div className="experience-section__company-logo-div">
                         <svg
@@ -176,7 +177,7 @@ const Experience = () => {
                       </div>
                     </Nav.Link>
                   </Nav.Item>
-                  <Nav.Item>
+                  <Nav.Item onClick={()=>ReactGA.event({category: "Experience", action: "Ford 1", label: "test label"})}>
                     <Nav.Link eventKey="fifth">
                       <div className="experience-section__company-logo-div">
                         <svg
@@ -225,7 +226,7 @@ const Experience = () => {
                       </div>
                     </Nav.Link>
                   </Nav.Item>
-                  <Nav.Item>
+                  <Nav.Item onClick={()=>ReactGA.event({category: "Experience", action: "Big River", label: "test label"})}>
                     <Nav.Link eventKey="sixth">
                       <div className="experience-section__company-logo-div">
                         <svg
@@ -287,7 +288,7 @@ const Experience = () => {
                       </div>
                     </Nav.Link>
                   </Nav.Item>
-                  <Nav.Item>
+                  <Nav.Item onClick={()=>ReactGA.event({category: "Experience", action: "Grand River", label: "test label"})}>
                     <Nav.Link eventKey="seventh">
                       <div className="experience-section__company-logo-div">
                         <svg
