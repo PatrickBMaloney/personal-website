@@ -10,6 +10,7 @@ import Footer from "./Footer/Footer.jsx";
 import ReactGA from 'react-ga';
 const TRACKING_ID = "G-KMC3PYM0HJ";
 ReactGA.initialize(TRACKING_ID);
+ReactGA.pageview("patrickmaloney.me/");
 
 function App() {
   return (
