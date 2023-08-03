@@ -70,7 +70,7 @@ export default function Projects() {
                   </div>
                 </Col>
                 <Col sm={6} className="media-column">
-                  <video src="https://drive.google.com/uc?id=1smhkUWmSFeTUgyFNWpfu-Zs7-vXjcW4O" height="500" autoPlay loop muted />
+                  <img src="images/pnueno-sense.gif" className="pnuemo-sense-gif" alt="Pneumo Sense app demo" />
                 </Col>
               </Row>
             </Typography>
@@ -123,7 +123,7 @@ export default function Projects() {
                   </div>
                 </Col>
                 <Col sm={6} className="media-column">
-                  <img className="watopoly-gif" src="images/watopoly.gif" alt="Gif showing multiple screens from the Watopoly app"/>
+                  <img className="watopoly-gif horizontal-centered" src="images/watopoly.gif" alt="Gif showing multiple screens from the Watopoly app"/>
                 </Col>
               </Row>
             </Typography>
@@ -331,7 +331,7 @@ export default function Projects() {
                   <img
                     src="images/vuzix-blade.png"
                     alt="vuzix blade smart glasses"
-                    className="vuzix-img"
+                    className="vuzix-img horizontal-centered"
                   />
                 </Col>
               </Row>
@@ -422,7 +422,7 @@ export default function Projects() {
                   <img
                     src="images/mediband.png"
                     alt="mediband"
-                    className="mediband-img"
+                    className="mediband-img horizontal-centered"
                   />
                 </Col>
               </Row>
@@ -512,7 +512,7 @@ export default function Projects() {
                   <img
                     src="images/grocery.png"
                     alt="groceries"
-                    className="grocery-img"
+                    className="grocery-img horizontal-centered"
                   />
                 </Col>
               </Row>

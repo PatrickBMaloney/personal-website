@@ -96,16 +96,23 @@
   }
 
   .media-column > img {
-    max-height: 300px;
-    max-width: 100%;
+    &.pnuemo-sense-gif {
+      max-height: 500px;
+      margin: auto;
+      padding: 15px;
+    }
     &.watopoly-gif {
       width: 90%;
       max-width: 500px;
       margin: auto;
     }
-    @include absCenter;
-    @include respond(phone) {
-      height: 90%;
+    &.horizontal-centered {
+      max-height: 300px;
+      max-width: 100%;
+      @include absCenter;
+      @include respond(phone) {
+        height: 90%;
+      }
     }
   }
 
