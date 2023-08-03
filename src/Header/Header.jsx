@@ -17,7 +17,7 @@ const Header = () => {
             Hi, I'm <span className="name">Patrick Maloney</span>
           </h1>
           <h5>
-            Full Stack Software Engineer
+            Software Engineer
           </h5>
         </div>
         <div className="header-links-container">
